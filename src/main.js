@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 
 Vue.config.productionTip = false
-
+axios.defaults.baseURL = 'http://localhost:8000/api'
 new Vue({
   router,
   store,
